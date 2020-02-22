@@ -1,0 +1,14 @@
+#pragma once
+#include <string_view>
+
+namespace my_project::version {
+
+constexpr int major{@PROJECT_VERSION_MAJOR@};
+
+constexpr int minor{@PROJECT_VERSION_MINOR@};
+
+constexpr int patch{@PROJECT_VERSION_PATCH@};
+
+constexpr std::string_view full{"@PROJECT_VERSION@"};
+
+}

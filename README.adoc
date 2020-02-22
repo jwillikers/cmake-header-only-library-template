@@ -1,0 +1,26 @@
+= header-only_library_template
+Jordan Williams
+
+== Summary
+
+A template for creating a C++ header-only library using CMake.
+
+== Configure
+
+Create a build directory and configure the CMake project.
+[source,console]
+----
+mkdir build
+cd build
+cmake ..
+----
+
+This will generate the version header.
+
+== License
+
+See link:./LICENSE[Apache 2.0 License].
+
+== Authors
+
+{author}
