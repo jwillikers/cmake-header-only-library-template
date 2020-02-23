@@ -26,4 +26,20 @@ set(CMAKE_WINDOWS_EXPORT_ALL_SYMBOLS yes CACHE BOOL "")
 
 set(MY_PROJECT_GENERATED_INCLUDEDIR "${PROJECT_BINARY_DIR}/generated/include" CACHE STRING "Where to place the header files configured by CMake.")
 
+# use_compiler_cache
+# use_better_linker
+# use_split_dwarf
+
 add_subdirectory(src)
+
+#if(BENCHMARK_MY_PROJECT OR CMAKE_SOURCE_DIR STREQUAL PROJECT_SOURCE_DIR)
+#  add_subdirectory(benchmark)
+#endif()
+
+#if(TEST_MY_PROJECT OR CMAKE_SOURCE_DIR STREQUAL PROJECT_SOURCE_DIR)
+#  add_subdirectory(test)
+#endif()
+
+#if(DOCUMENT_MY_PROJECT OR CMAKE_SOURCE_DIR STREQUAL PROJECT_SOURCE_DIR)
+#  add_subdirectory(doc)
+#endif()

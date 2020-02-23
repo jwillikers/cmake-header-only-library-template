@@ -1,4 +1,4 @@
-= header-only_library_template
+= cmake-header-only-library-template
 Jordan Williams
 
 == Summary
