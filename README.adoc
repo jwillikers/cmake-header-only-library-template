@@ -5,6 +5,9 @@ Jordan Williams
 
 A template for creating a C++ header-only library using CMake.
 
+NOTE: This is currently in its early stages and under development.
+A lot of the functionality has yet to be implemented.
+
 == Configure
 
 Create a build directory and configure the CMake project.
